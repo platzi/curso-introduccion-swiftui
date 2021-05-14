@@ -20,6 +20,7 @@
 		367E60D9264F1AC6006D048A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		367E60DC264F1AC6006D048A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		367E60DE264F1AC6006D048A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367E60E5264F1B10006D048A /* VariablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */,
+				367E60E4264F1ADC006D048A /* Playgrounds */,
 				367E60D7264F1AC6006D048A /* ContentView.swift */,
 				367E60D9264F1AC6006D048A /* Assets.xcassets */,
 				367E60DE264F1AC6006D048A /* Info.plist */,
@@ -67,6 +69,14 @@
 				367E60DC264F1AC6006D048A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		367E60E4264F1ADC006D048A /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				367E60E5264F1B10006D048A /* VariablesConstantes.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
