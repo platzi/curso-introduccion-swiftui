@@ -22,6 +22,7 @@
 		367E60DE264F1AC6006D048A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		367E60E5264F1B10006D048A /* VariablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60E6264F227C006D048A /* FuncionesArgumentLabels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FuncionesArgumentLabels.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		367E60E7264F345E006D048A /* StructsPropiedadesMetodos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructsPropiedadesMetodos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			children = (
 				367E60E5264F1B10006D048A /* VariablesConstantes.playground */,
 				367E60E6264F227C006D048A /* FuncionesArgumentLabels.playground */,
+				367E60E7264F345E006D048A /* StructsPropiedadesMetodos.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
