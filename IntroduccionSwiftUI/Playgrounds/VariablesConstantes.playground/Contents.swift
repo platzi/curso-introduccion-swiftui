@@ -4,6 +4,7 @@ import Foundation
 
 
 //Palabra reservada-Operador de asignacion-valor
+
 var greeting = "Hello, playground"
 
 var x = 10
@@ -17,6 +18,7 @@ var nombreVariableImportante = 2
 var sumaVariables = x + y
 
 //Palabra reservada-Tipo de dato-Operador de asignacion-valor
+
 var text:String = "Hola Mundo"
 
 var numeroVariable:Int = 18
