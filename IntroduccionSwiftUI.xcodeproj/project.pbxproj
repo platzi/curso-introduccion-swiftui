@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3652EC8F264F3E0D00E216A7 /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60D2264F1AC6006D048A /* IntroduccionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroduccionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduccionSwiftUIApp.swift; sourceTree = "<group>"; };
 		367E60D7264F1AC6006D048A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				367E60E5264F1B10006D048A /* VariablesConstantes.playground */,
 				367E60E6264F227C006D048A /* FuncionesArgumentLabels.playground */,
 				367E60E7264F345E006D048A /* StructsPropiedadesMetodos.playground */,
+				3652EC8F264F3E0D00E216A7 /* ComputedProperties.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
