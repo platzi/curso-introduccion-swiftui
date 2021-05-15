@@ -13,6 +13,7 @@
 		367E60DD264F1AC6006D048A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E60DC264F1AC6006D048A /* Preview Assets.xcassets */; };
 		36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6369F264F58A0002C61BC /* TextViewModifiers.swift */; };
 		36C636A2264F5B80002C61BC /* Botones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C636A1264F5B80002C61BC /* Botones.swift */; };
+		36C636A4264F6212002C61BC /* Imagenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C636A3264F6212002C61BC /* Imagenes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		367E60E7264F345E006D048A /* StructsPropiedadesMetodos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructsPropiedadesMetodos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36C6369F264F58A0002C61BC /* TextViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModifiers.swift; sourceTree = "<group>"; };
 		36C636A1264F5B80002C61BC /* Botones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botones.swift; sourceTree = "<group>"; };
+		36C636A3264F6212002C61BC /* Imagenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagenes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				367E60D7264F1AC6006D048A /* ContentView.swift */,
 				36C6369F264F58A0002C61BC /* TextViewModifiers.swift */,
 				36C636A1264F5B80002C61BC /* Botones.swift */,
+				36C636A3264F6212002C61BC /* Imagenes.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				367E60D8264F1AC6006D048A /* ContentView.swift in Sources */,
+				36C636A4264F6212002C61BC /* Imagenes.swift in Sources */,
 				367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */,
 				36C636A2264F5B80002C61BC /* Botones.swift in Sources */,
 				36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */,
