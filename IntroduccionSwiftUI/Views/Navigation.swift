@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct Navigation: View {
     
-    @State var imagenesIsActive:Bool = false
+    @State var videoPlayerIsActive:Bool = false
+    @State var url:String = "https://cdn.cloudflare.steamstatic.com/steam/apps/256705156/movie480.mp4"
     
     var body: some View {
         
@@ -19,18 +21,23 @@ struct Navigation: View {
             
             VStack{
                 
-                Text("Hola Mundo").navigationTitle("Primer pantalla").padding(.bottom,18 )
+               
                 
-                NavigationLink("Divisores", destination: Divisores())
-                
-                
-                Button(action: {imagenesIsActive = true}, label: {
-                        Image("platzi").resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 150)                })
+                Button(action: {videoPlayerIsActive = true}, label: {
+                        ZStack {
+                           
+                            Image("Cuphead").resizable().aspectRatio(contentMode: .fit).frame(width: 400, height: 300)
+                        
+                            Image(systemName: "play.fill").resizable().aspectRatio(contentMode: .fit).foregroundColor(.white).frame(width: 42, height: 42
+                        )
+                        
+                        
+                        }                }).navigationTitle("Primer pantalla").padding(.bottom,18 )
                 
                 
                 NavigationLink(
-                    destination: Imagenes(),
-                    isActive: $imagenesIsActive,
+                    destination: VideoPlayer(player: AVPlayer(url:  URL(string: url)!)).frame(width: 400, height: 300),
+                    isActive: $videoPlayerIsActive,
                     label: {
                         EmptyView()
                     })
