@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36279E0A264F8F0B004A63A6 /* Divisores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36279E09264F8F0A004A63A6 /* Divisores.swift */; };
 		367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */; };
 		367E60D8264F1AC6006D048A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E60D7264F1AC6006D048A /* ContentView.swift */; };
 		367E60DA264F1AC6006D048A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E60D9264F1AC6006D048A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36279E09264F8F0A004A63A6 /* Divisores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisores.swift; sourceTree = "<group>"; };
 		3652EC8F264F3E0D00E216A7 /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60D2264F1AC6006D048A /* IntroduccionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroduccionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduccionSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				36C636A1264F5B80002C61BC /* Botones.swift */,
 				36C636A3264F6212002C61BC /* Imagenes.swift */,
 				36C636A5264F8859002C61BC /* CamposTextoState.swift */,
+				36279E09264F8F0A004A63A6 /* Divisores.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				36C636A4264F6212002C61BC /* Imagenes.swift in Sources */,
 				367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */,
 				36C636A2264F5B80002C61BC /* Botones.swift in Sources */,
+				36279E0A264F8F0B004A63A6 /* Divisores.swift in Sources */,
 				36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
