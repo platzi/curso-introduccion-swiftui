@@ -8,6 +8,8 @@ print(mensaje)
 
 print("Mi mensaje es: \(mensaje)")
 
+print("1","2","3", separator: "...", terminator: " :D")
+
 print(1.0, 2.0, 3.0, 4.0, 5.0, separator: " ... ")
 
 //palabra reservada-nombre funcion
@@ -56,10 +58,10 @@ enviaPaquete(a: "Juan", deParteDe: "Miranda")
 
 //palabra reservada - nombre de funcion - parametros/argumentos con argument labels opcionalmente - opcionalmente tipo de dato a devolver - llaves - palabra reservada return.
 
-func sumaAMasB (_ primerNumero:Int, _ segundoNumero:Int) -> Int{
+func sumaAMasB (_ primerNumero:Int, Mas segundoNumero:Int) -> Int{
     
     return primerNumero + segundoNumero
     
 }
 
-sumaAMasB(6, 12)
+sumaAMasB(6, Mas: 12)
