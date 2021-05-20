@@ -12,6 +12,7 @@
 		36279E0E264FAB50004A63A6 /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36279E0D264FAB50004A63A6 /* ZstackPadding.swift */; };
 		36279E10264FB0BB004A63A6 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36279E0F264FB0BB004A63A6 /* TabView.swift */; };
 		36279E12264FB6C1004A63A6 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36279E11264FB6C1004A63A6 /* Navigation.swift */; };
+		364FE01626563F270036B218 /* Reproductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FE01526563F270036B218 /* Reproductor.swift */; };
 		367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */; };
 		367E60D8264F1AC6006D048A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E60D7264F1AC6006D048A /* ContentView.swift */; };
 		367E60DA264F1AC6006D048A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E60D9264F1AC6006D048A /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		36279E0D264FAB50004A63A6 /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
 		36279E0F264FB0BB004A63A6 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		36279E11264FB6C1004A63A6 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		364FE01526563F270036B218 /* Reproductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reproductor.swift; sourceTree = "<group>"; };
 		3652EC8F264F3E0D00E216A7 /* ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60D2264F1AC6006D048A /* IntroduccionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroduccionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367E60D5264F1AC6006D048A /* IntroduccionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduccionSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				36279E0D264FAB50004A63A6 /* ZstackPadding.swift */,
 				36279E0F264FB0BB004A63A6 /* TabView.swift */,
 				36279E11264FB6C1004A63A6 /* Navigation.swift */,
+				364FE01526563F270036B218 /* Reproductor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */,
 				36C636A2264F5B80002C61BC /* Botones.swift in Sources */,
 				36279E0A264F8F0B004A63A6 /* Divisores.swift in Sources */,
+				364FE01626563F270036B218 /* Reproductor.swift in Sources */,
 				36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */,
 				36279E0E264FAB50004A63A6 /* ZstackPadding.swift in Sources */,
 			);
