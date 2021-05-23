@@ -1,20 +1,16 @@
 import UIKit
 
+var greeting = "Hello, playground"
+
+//Computed Properties - Propiedades calculadas
+
 var suma:Int {
     
-   10 + 8
+    let x = 11
+    
+   return 10 + x
+    
     
 }
-
 
 suma
-
-var multiplicacion:Int {
-    
-    let a:Int = 10 ,b:Int = 10 ,c:Int = 10
-    
-    return a*b*c
-    
-}
-
-multiplicacion
