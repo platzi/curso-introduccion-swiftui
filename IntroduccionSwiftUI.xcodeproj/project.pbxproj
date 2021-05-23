@@ -11,7 +11,7 @@
 		367E60D8264F1AC6006D048A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E60D7264F1AC6006D048A /* ContentView.swift */; };
 		367E60DA264F1AC6006D048A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E60D9264F1AC6006D048A /* Assets.xcassets */; };
 		367E60DD264F1AC6006D048A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E60DC264F1AC6006D048A /* Preview Assets.xcassets */; };
-		36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6369F264F58A0002C61BC /* TextViewModifiers.swift */; };
+		36C636A0264F58A0002C61BC /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6369F264F58A0002C61BC /* TextMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		367E60E5264F1B10006D048A /* VariablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60E6264F227C006D048A /* FuncionesArgumentLabels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FuncionesArgumentLabels.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		367E60E7264F345E006D048A /* StructsPropiedadesMetodos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructsPropiedadesMetodos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		36C6369F264F58A0002C61BC /* TextViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModifiers.swift; sourceTree = "<group>"; };
+		36C6369F264F58A0002C61BC /* TextMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				367E60D7264F1AC6006D048A /* ContentView.swift */,
-				36C6369F264F58A0002C61BC /* TextViewModifiers.swift */,
+				36C6369F264F58A0002C61BC /* TextMod.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			files = (
 				367E60D8264F1AC6006D048A /* ContentView.swift in Sources */,
 				367E60D6264F1AC6006D048A /* IntroduccionSwiftUIApp.swift in Sources */,
-				36C636A0264F58A0002C61BC /* TextViewModifiers.swift in Sources */,
+				36C636A0264F58A0002C61BC /* TextMod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IntroduccionSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y2A2F444P;
+				DEVELOPMENT_TEAM = PR2KB3T2YF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IntroduccionSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -305,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.IntroduccionSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.IntroSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IntroduccionSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y2A2F444P;
+				DEVELOPMENT_TEAM = PR2KB3T2YF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IntroduccionSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -327,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.IntroduccionSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.IntroSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
