@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Botones: View {
+struct Buttons: View {
    
     var body: some View {
         
@@ -44,13 +44,14 @@ struct Botones: View {
     func metodoBoton() {
         print("ME PULSASTE!")
     }
+    
 
 
 
 }
 
-struct Botones_Previews: PreviewProvider {
+struct Buttons_Previews: PreviewProvider {
     static var previews: some View {
-        Botones()
+        Buttons()
     }
 }

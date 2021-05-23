@@ -8,50 +8,67 @@
 import SwiftUI
 import AVKit
 
-struct Navigation: View {
+struct Navigations: View {
     
-    @State var videoPlayerIsActive:Bool = false
-    @State var url:String = "https://cdn.cloudflare.steamstatic.com/steam/apps/256705156/movie480.mp4"
+    @State var isDividersActive:Bool = false
     
     var body: some View {
         
-        
+    
         
         NavigationView {
             
-            VStack{
-                
-               
-                
-                Button(action: {videoPlayerIsActive = true}, label: {
-                        ZStack {
-                           
-                            Image("Cuphead").resizable().aspectRatio(contentMode: .fit).frame(width: 400, height: 300)
+        
+            VStack {
+                Text("Hello, World!").navigationTitle("Home").navigationBarTitleDisplayMode(.inline).toolbar(content: {
+                    ToolbarItem( placement: .navigationBarTrailing) {
                         
-                            Image(systemName: "play.fill").resizable().aspectRatio(contentMode: .fit).foregroundColor(.white).frame(width: 42, height: 42
-                        )
+                        Button(action: {isDividersActive = true}, label: {
+                            Text("+")
+                        })
                         
                         
-                        }                }).navigationTitle("Primer pantalla").padding(.bottom,18 )
-                
-                
-                NavigationLink(
-                    destination: VideoPlayer(player: AVPlayer(url:  URL(string: url)!)).frame(width: 400, height: 300),
-                    isActive: $videoPlayerIsActive,
-                    label: {
-                        EmptyView()
-                    })
-                
+                    }
+                })
+            
+            
+            
+            NavigationLink("Navegar a vista de tabviews", destination: Tabviews()   )
+            
+            NavigationLink(
+                destination: Dividers(),
+                isActive: $isDividersActive,
+                label: {
+                    EmptyView()
+                })
+            
+            
+            
             }
+                
+        
+            
+            
+            
+            
+            
+            
+        
+        
         }
-        
-        
-        
+    
+    
+    
+    
     }
+
+
+
+
 }
 
-struct Navigation_Previews: PreviewProvider {
+struct Navigations_Previews: PreviewProvider {
     static var previews: some View {
-        Navigation()
+        Navigations()
     }
 }

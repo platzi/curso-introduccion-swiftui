@@ -11,7 +11,7 @@ import SwiftUI
 struct IntroduccionSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Navigation()
+            Player()
         }
     }
 }
