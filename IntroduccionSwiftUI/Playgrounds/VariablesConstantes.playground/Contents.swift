@@ -5,26 +5,12 @@ import Foundation
 
 //Palabra reservada-Operador de asignacion-valor
 
-var greeting = "Hello, playground"
+var numeroEntero:Int = 2
 
-var x = 10
+var numeroFlotante:Float = 16.8
 
-var y = 8
+var resultado = Float(numeroEntero) + numeroFlotante
 
-var r = x + y
 
-var nombreVariableImportante = 2
 
-var sumaVariables = x + y
-
-//Palabra reservada-Tipo de dato-Operador de asignacion-valor
-
-var text:String = "Hola Mundo"
-
-var numeroVariable:Int = 18
-
-let numeroEstatico:Float = 8.9
-
-//let resultado = numeroEstatico + numeroVariable
-
-let resultado:Float = numeroEstatico + Float(numeroVariable)
+print(resultado)
