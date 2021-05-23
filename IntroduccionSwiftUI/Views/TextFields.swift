@@ -1,5 +1,5 @@
 //
-//  CamposTextoState.swift
+//  TextFields.swift
 //  IntroduccionSwiftUI
 //
 //  Created by Juan Villalvazo on 14/05/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CamposTextoState: View {
+struct TextFields: View {
     
     @State var miBindingString:String = ""
     
@@ -36,8 +36,8 @@ struct CamposTextoState: View {
     }
 }
 
-struct CamposTextoState_Previews: PreviewProvider {
+struct TextFields_Previews: PreviewProvider {
     static var previews: some View {
-        CamposTextoState()
+        TextFields()
     }
 }
