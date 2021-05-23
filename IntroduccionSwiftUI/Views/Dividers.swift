@@ -1,5 +1,5 @@
 //
-//  Divisores.swift
+//          Dividers.swift
 //  IntroduccionSwiftUI
 //
 //  Created by Juan Villalvazo on 14/05/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Divisores: View {
+struct         Dividers: View {
     var body: some View {
         VStack {
             
@@ -26,8 +26,8 @@ struct Divisores: View {
     }
 }
 
-struct Divisores_Previews: PreviewProvider {
+struct Dividers_Previews: PreviewProvider {
     static var previews: some View {
-        Divisores()
+                Dividers()
     }
 }
