@@ -1,5 +1,5 @@
 //
-//  Botones.swift
+//  Buttons.swift
 //  IntroduccionSwiftUI
 //
 //  Created by Juan Villalvazo on 14/05/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Botones: View {
+struct Buttons: View {
    
     var body: some View {
         
@@ -51,6 +51,6 @@ struct Botones: View {
 
 struct Botones_Previews: PreviewProvider {
     static var previews: some View {
-        Botones()
+        Buttons()
     }
 }
