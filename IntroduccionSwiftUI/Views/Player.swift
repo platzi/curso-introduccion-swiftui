@@ -32,6 +32,7 @@ struct Player: View {
                     ZStack {
                         Image("cuphead").resizable().aspectRatio(contentMode: .fit)
                    
+                        
                         Image(systemName: "play.fill").foregroundColor(.white)
                     
                     
