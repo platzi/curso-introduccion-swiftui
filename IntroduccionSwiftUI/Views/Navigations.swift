@@ -1,5 +1,5 @@
 //
-//  Navigation.swift
+//  Navigations.swift
 //  IntroduccionSwiftUI
 //
 //  Created by Juan Villalvazo on 15/05/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Navigation: View {
+struct Navigations: View {
     
     @State var imagenesIsActive:Bool = false
     
@@ -45,6 +45,6 @@ struct Navigation: View {
 
 struct Navigation_Previews: PreviewProvider {
     static var previews: some View {
-        Navigation()
+        Navigations()
     }
 }
